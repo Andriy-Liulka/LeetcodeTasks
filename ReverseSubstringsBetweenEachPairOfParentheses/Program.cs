@@ -23,10 +23,10 @@ public class Solution
         var leftBreckersStackCount = leftBreckerStach.Count;
         for (int i = 0; i < leftBreckersStackCount; i++)
         {
-            var leftBreckerIndex = leftBreckerStach.Pop() - i;
+            var leftBreckerIndex = leftBreckerStach.Pop();
             leftBreckerIndex = leftBreckerIndex < 0 ? 0 : leftBreckerIndex;
 
-            var rightBreckerIndex = rightBrecketStack.Dequeue() - i;
+            var rightBreckerIndex = rightBrecketStack.Dequeue() - (i*2);
 
             string reverseCandidate = s.Substring(leftBreckerIndex + 1, rightBreckerIndex - leftBreckerIndex - 1);
 
@@ -50,7 +50,8 @@ internal class Program
     {
         var solutor = new Solution();
         //var result1 = solutor.ReverseParentheses("(abcd)");
-        var result2 = solutor.ReverseParentheses("(u(love)i)");
-        var result3 = solutor.ReverseParentheses("(ed(et(oc))el)");
+        //var result2 = solutor.ReverseParentheses("(u(love)i)");
+        //var result3 = solutor.ReverseParentheses("(ed(et(oc))el)");
+        var result4 = solutor.ReverseParentheses("ta()usw((((a))))");
     }
 }
