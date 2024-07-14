@@ -7,7 +7,7 @@ public class Solution
     public string ReverseParentheses(string s)
     {
         var leftBreckerStach = new Stack<int>();
-        var rightBrecketStack = new Queue<int>();
+        var rightBrecketQueue = new Queue<int>();
 
         for (int i = 0; i < s.Length; i++)
         {
@@ -17,7 +17,7 @@ public class Solution
             }
             else if (s[i] == ')')
             {
-                rightBrecketStack.Enqueue(i);
+                rightBrecketQueue.Enqueue(i);
             }
         }
         var leftBreckersStackCount = leftBreckerStach.Count;
@@ -26,7 +26,7 @@ public class Solution
             var leftBreckerIndex = leftBreckerStach.Pop();
             leftBreckerIndex = leftBreckerIndex < 0 ? 0 : leftBreckerIndex;
 
-            var rightBreckerIndex = rightBrecketStack.Dequeue() - (i*2);
+            var rightBreckerIndex = rightBrecketQueue.Dequeue() - (i*2);
 
             string reverseCandidate = s.Substring(leftBreckerIndex + 1, rightBreckerIndex - leftBreckerIndex - 1);
 
