@@ -2,70 +2,31 @@
 
 namespace ReverseSubstringsBetweenEachPairOfParentheses;
 
-//public class Solution
-//{
-//    public string ReverseParentheses(string s)
-//    {
-//        var leftBreckerStack = new Stack<int>();
-//        var rightBrecketStack = new Stack<(int, int)>();
-//        var queue = new Queue<int>();
-//        queue.Enqueue(2);
-//        queue.Dequeue();
+public class BrecketCalculator
+{
+    private record BrecketItem(bool leftBrecketPresent, bool rightBrecketPresent = false);
 
-//        var temporareRightStack = new Stack<int>();
+    private List<BrecketItem> _brecketItems;
+    public BrecketCalculator()
+    {
+        _brecketItems = new List<BrecketItem>();
+    }
 
-//        for (int i = 0; i < s.Length; i++)
-//        {
-//            if (s[i] == '(')
-//            {
-//                FillQueue(ref rightBrecketStack, temporareRightStack);
-//                temporareRightStack.Clear();
+    public void AddLeftBrecker()
+    {
+        _brecketItems.Add(new BrecketItem(true));
+    }
 
-//                leftBreckerStack.Push(i);
-//            }
-//            else if (s[i] == ')')
-//            {
-//                temporareRightStack.Push(i);
-//            }
-//        }
-//        FillQueue(ref rightBrecketStack, temporareRightStack);
-//        temporareRightStack.Clear();
-
-//        var leftBreckersStackCount = leftBreckerStack.Count;
-//        for (int i = 0; i < leftBreckersStackCount; i++)
-//        { 
-//            var leftBreckerIndex = leftBreckerStack.Pop();
-//            leftBreckerIndex = leftBreckerIndex < 0 ? 0 : leftBreckerIndex;
-
-//            var (rightIndex, changeStap) = rightBrecketStack.Pop();
-
-//            var rightBreckerIndex = rightIndex - (changeStap * 2);
-
-//            string reverseCandidate = s.Substring(leftBreckerIndex + 1, rightBreckerIndex - leftBreckerIndex - 1);
-
-//            var reversedString = ReverseString(reverseCandidate);
-
-//            s = s.Remove(leftBreckerIndex, rightBreckerIndex - leftBreckerIndex + 1).Insert(leftBreckerIndex, reversedString);
-//        }
-
-//        return s;
-//    }
-
-//    private string ReverseString(string str)
-//    {
-//        return new string(str.Reverse().ToArray());
-//    }
-
-//    private void FillQueue(ref Stack<(int, int)> queue, Stack<int> fromQueue)
-//    {
-//        int iterator = fromQueue.Count - 1;
-//        while (fromQueue.Count > 0)
-//        {
-//            queue.Push((fromQueue.Pop(), iterator));
-//            iterator--;
-//        }
-//    }
-//}
+    public int AddRightBrecker()
+    {
+        var lastIndex = _brecketItems.Count - 1;
+        int i = default(int);
+        for (i = lastIndex; _brecketItems[i].rightBrecketPresent; i--)
+        { }
+        _brecketItems[i] = _brecketItems[i] with { rightBrecketPresent = true};
+        return lastIndex - i;
+    }
+}
 
 public class PositionStack<T>
 {
@@ -123,25 +84,26 @@ public class PositionStack<T>
     }
 }
 
-public class Solution2
+public class Solution
 {
     public string ReverseParentheses(string s)
     {
         var leftBrecketStack = new Stack<int>();
         var rightBreckerStack = new PositionStack<(int, int)>();
-        int fullBrecketsCount = 0;
+        var breckerCalculator = new BrecketCalculator();
 
         for (int i = 0; i < s.Length; i++)
         {
             if (s[i] == '(')
             {
+                breckerCalculator.AddLeftBrecker();
                 leftBrecketStack.Push(i);
                 rightBreckerStack.IncrementSize();
             }
             else if (s[i] == ')')
             {
-                rightBreckerStack.Push((i, fullBrecketsCount));
-                fullBrecketsCount++;
+                var breckerCounts = breckerCalculator.AddRightBrecker();
+                rightBreckerStack.Push((i, breckerCounts));
             }
         }
         var brecketsCount = (leftBrecketStack.Count + rightBreckerStack.Count) / 2;
@@ -172,12 +134,11 @@ public class Solution2
 
 }
 
-
 internal class Program
 {
     static void Main(string[] args)
     {
-        var solutor = new Solution2();
+        var solutor = new Solution();
         var result1 = solutor.ReverseParentheses("(abcd)");
         var result2 = solutor.ReverseParentheses("(u(love)i)");
         var result3 = solutor.ReverseParentheses("(ed(et(oc))el)");
