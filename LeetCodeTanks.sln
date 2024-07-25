@@ -43,11 +43,13 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "AverageWaitingTime", "Avera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseSubstringsBetweenEachPairOfParentheses", "ReverseSubstringsBetweenEachPairOfParentheses\ReverseSubstringsBetweenEachPairOfParentheses.csproj", "{75D1E829-440E-46D8-B50D-146EE1DAB6F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greatest_Common_Divisor_of_Strings", "Greatest_Common_Divisor_of_Strings\Greatest_Common_Divisor_of_Strings.csproj", "{E475B448-2863-49E3-A122-D06EDF4397D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greatest_Common_Divisor_of_Strings", "Greatest_Common_Divisor_of_Strings\Greatest_Common_Divisor_of_Strings.csproj", "{E475B448-2863-49E3-A122-D06EDF4397D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Median_Of_Two_Sorted_Arrays", "Median_Of_Two_Sorted_Arrays\Median_Of_Two_Sorted_Arrays.csproj", "{D71573C4-B552-4D6A-B753-009790730DC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Median_Of_Two_Sorted_Arrays", "Median_Of_Two_Sorted_Arrays\Median_Of_Two_Sorted_Arrays.csproj", "{D71573C4-B552-4D6A-B753-009790730DC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestSufficientTeam_Hard", "SmallestSufficientTeam_Hard\SmallestSufficientTeam_Hard.csproj", "{3AFC1EF5-5E8D-437E-A4E7-FC9738C54379}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestSufficientTeam_Hard", "SmallestSufficientTeam_Hard\SmallestSufficientTeam_Hard.csproj", "{3AFC1EF5-5E8D-437E-A4E7-FC9738C54379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindHorceStepsAmount", "FindHorceStepsAmount\FindHorceStepsAmount.csproj", "{B0903663-5090-437E-97B1-31BEA33C5C5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +151,10 @@ Global
 		{3AFC1EF5-5E8D-437E-A4E7-FC9738C54379}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AFC1EF5-5E8D-437E-A4E7-FC9738C54379}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AFC1EF5-5E8D-437E-A4E7-FC9738C54379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0903663-5090-437E-97B1-31BEA33C5C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0903663-5090-437E-97B1-31BEA33C5C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0903663-5090-437E-97B1-31BEA33C5C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0903663-5090-437E-97B1-31BEA33C5C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
