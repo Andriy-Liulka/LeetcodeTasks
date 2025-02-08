@@ -8,6 +8,8 @@ namespace CombinationSum_2
         {
              var result = new Solution().CombinationSum2([10, 1, 2, 7, 6, 1, 5], 8);
              var result2 = new Solution().CombinationSum2([2, 5, 2, 1, 2], 5);
+             var result3 = new Solution().CombinationSum2([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 27);
+             var result4 = new Solution().CombinationSum2([4, 4, 2, 1, 4, 2, 2, 1, 3], 6);
 
         }
 
@@ -19,12 +21,26 @@ namespace CombinationSum_2
         {
             var resultList = new List<IList<int>>();
 
-            Find(ref resultList, new HashSet<int>(), new List<int>(), candidates.ToList(), 0, target);
+            var usageReport = new Dictionary<int, int>();
+            foreach (var candidate in candidates)
+            {
+                var isPresent = usageReport.TryGetValue(candidate, out int value);
+                if (isPresent)
+                {
+                    usageReport[candidate]++;
+                }
+                else
+                {
+                    usageReport.Add(candidate, 1);
+                }
+            }
+
+            Find(ref resultList, new HashSet<int>(), usageReport, new List<int>(), candidates.ToHashSet(), 0, target);
 
             return resultList;
         }
 
-        public void Find(ref List<IList<int>> resultSet, HashSet<int> existingElemsChecksums, List<int> fillingList, List<int> candidates, int currentSum, int target)
+        public void Find(ref List<IList<int>> resultSet, HashSet<int> existingElemsChecksums, Dictionary<int,int> availableItems, List<int> fillingList, HashSet<int> candidates, int currentSum, int target)
         {
             if (currentSum > target)
                 return;
@@ -35,40 +51,40 @@ namespace CombinationSum_2
 
                 if (!existingElemsChecksums.Contains(elemsChecksum))
                 {
-                    var list = new int[fillingList.Count];
-                    fillingList.CopyTo(list);
-                    resultSet.Add(list.ToList());
+                    resultSet.Add(new List<int>(fillingList));
                     existingElemsChecksums.Add(elemsChecksum);
                 }
                 return;
             }
 
-            var uniqueElements = candidates.ToHashSet();
-            for (int i = 0; i < uniqueElements.Count; i++)
+            foreach (var candidate in candidates)
             {
-                var sum = currentSum + candidates[i];
+                var sum = currentSum + candidate;
                 var difference = target - sum;
 
-                fillingList.Add(candidates[i]);
+                fillingList.Add(candidate);
+                availableItems[candidate]--;
 
-                var nextIterationCandidate = new List<int>(candidates.Count - 1);
-                for (int j = 0; j < candidates.Count; j++)
+                var nextIterationCandidate = new HashSet<int>(candidates.Count);
+                foreach (var subCandidate in candidates)
                 {
-                    if (i == j || candidates[j] > difference)
+                    var isAllowed = availableItems[subCandidate] > 0;
+                    if (isAllowed && subCandidate <= difference)
                     {
-                        continue;
+                        nextIterationCandidate.Add(subCandidate);
                     }
-                    nextIterationCandidate.Add(candidates[j]);
                 }
 
                 Find(ref resultSet,
                     existingElemsChecksums,
+                    availableItems,
                     fillingList,
                     nextIterationCandidate, 
                     sum, 
                     target);
 
                 fillingList.RemoveAt(fillingList.Count - 1);
+                availableItems[candidate]++;
             }
         }
 
@@ -76,9 +92,10 @@ namespace CombinationSum_2
         {
             int hash = 30;
             for (int i = 0; i < arr.Count; i++)
-                hash *= arr[i];
+                hash *= (arr[i] ^ 0x5A5A5A5A);
 
             return (int)(hash & 0x7FFFFFFF); ;
         }
+
     }
 }
