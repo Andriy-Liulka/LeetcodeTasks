@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations_2", "Permutati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideTwoIntegers", "DivideTwoIntegers\DivideTwoIntegers.csproj", "{5082E113-B4A1-4C1F-8C16-A0D5844F35C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{F98E3005-CED9-4492-9558-C85EC50505D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +187,10 @@ Global
 		{5082E113-B4A1-4C1F-8C16-A0D5844F35C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5082E113-B4A1-4C1F-8C16-A0D5844F35C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5082E113-B4A1-4C1F-8C16-A0D5844F35C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98E3005-CED9-4492-9558-C85EC50505D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98E3005-CED9-4492-9558-C85EC50505D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98E3005-CED9-4492-9558-C85EC50505D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98E3005-CED9-4492-9558-C85EC50505D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
