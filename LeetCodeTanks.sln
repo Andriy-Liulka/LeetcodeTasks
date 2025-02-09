@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations", "Permutation
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations_2", "Permutations_2\Permutations_2.csproj", "{07BA3331-14A7-4667-8129-DCA048C4629B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideTwoIntegers", "DivideTwoIntegers\DivideTwoIntegers.csproj", "{5082E113-B4A1-4C1F-8C16-A0D5844F35C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{07BA3331-14A7-4667-8129-DCA048C4629B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07BA3331-14A7-4667-8129-DCA048C4629B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07BA3331-14A7-4667-8129-DCA048C4629B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5082E113-B4A1-4C1F-8C16-A0D5844F35C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5082E113-B4A1-4C1F-8C16-A0D5844F35C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5082E113-B4A1-4C1F-8C16-A0D5844F35C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5082E113-B4A1-4C1F-8C16-A0D5844F35C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
