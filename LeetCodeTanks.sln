@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideTwoIntegers", "Divide
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{F98E3005-CED9-4492-9558-C85EC50505D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearch", "WordSearch\WordSearch.csproj", "{5F2A2473-8796-44C6-A1AE-08CCD91447D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,10 @@ Global
 		{F98E3005-CED9-4492-9558-C85EC50505D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F98E3005-CED9-4492-9558-C85EC50505D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F98E3005-CED9-4492-9558-C85EC50505D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2A2473-8796-44C6-A1AE-08CCD91447D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2A2473-8796-44C6-A1AE-08CCD91447D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2A2473-8796-44C6-A1AE-08CCD91447D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2A2473-8796-44C6-A1AE-08CCD91447D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
