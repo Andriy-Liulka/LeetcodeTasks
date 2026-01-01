@@ -57,12 +57,32 @@ public class Solution {
                 foreach (var visitedSection in visitedSections)
                 {
                     var (visitedI, visitedJ) = visitedSection;
-                    if (visitedI >= i && j <= visitedJ)
+                    
+                    if (visitedI >= i && j >= visitedJ)
                     {
                         isBlocked = true;
                         break;
                     }
-                    else if (visitedI <= i && j >= visitedJ)
+                    else if (visitedI <= i && j <= visitedJ)
+                    {
+                        isBlocked = true;
+                        break;
+                    }
+                    
+                    
+                    else if (i >= visitedI && visitedI >= j && j >= visitedJ)
+                    {
+                        isBlocked = true;
+                        break;
+                    }
+                    else if (visitedI >= i && i >= visitedJ && visitedJ >= j)
+                    {
+                        isBlocked = true;
+                        break;
+                    }
+                    
+                    
+                    else if(visitedI == i || visitedJ == j || visitedI == j || visitedJ == i)
                     {
                         isBlocked = true;
                         break;
