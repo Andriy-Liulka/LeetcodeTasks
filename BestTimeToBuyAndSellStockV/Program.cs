@@ -162,12 +162,13 @@ public class Program
     {
         //var res1 = new Solution().MaximumProfit([1, 7, 9, 8, 2], 2);                   //14
         // var res2 = new Solution().MaximumProfit([12, 16, 19, 19, 8, 1, 19, 13, 9], 3); //36
-        // var res3 = new Solution().MaximumProfit([3,8,9,6,4], 2);                       //10
+        var res3 = new Solution().MaximumProfit([3,8,9,6,7], 2);                       //10
         // var res4 = new Solution().MaximumProfit([5,8], 1);                             //3
         // var res5 = new Solution().MaximumProfit([1,10], 1);                            //9
         // var res6 = new Solution().MaximumProfit([2,3,2,3,2,3,2,3], 4);                 //4
         // var res7 = new Solution().MaximumProfit([6,11,1,5,3,15,8], 3);                 //22
-        var res8 = new Solution().MaximumProfit([4,5,18,15,14,10,8,12,12,18,17,8,16], 6); //38
+        //var res8 = new Solution().MaximumProfit([4,5,18,15,14,10,8,12,12,18,17,8,16], 6); //38
+        var res9 = new Solution().MaximumProfit([1,2,3,4,5], 2); //4
         
         
     }

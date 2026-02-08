@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximizeHappinessOfSelected
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideArrayIntoSubarraysWithMinimum Cost", "DivideArrayIntoSubarraysWithMinimum Cost\DivideArrayIntoSubarraysWithMinimum Cost.csproj", "{83D6B668-03F4-4FCC-AB65-5B236CA529F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBinaryTree", "BalancedBinaryTree\BalancedBinaryTree.csproj", "{98D45D8D-C934-4A48-A141-409ADE7F6AEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +229,10 @@ Global
 		{83D6B668-03F4-4FCC-AB65-5B236CA529F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83D6B668-03F4-4FCC-AB65-5B236CA529F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83D6B668-03F4-4FCC-AB65-5B236CA529F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D45D8D-C934-4A48-A141-409ADE7F6AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D45D8D-C934-4A48-A141-409ADE7F6AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D45D8D-C934-4A48-A141-409ADE7F6AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D45D8D-C934-4A48-A141-409ADE7F6AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
