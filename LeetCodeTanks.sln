@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.33530.505
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11505.172 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestSufficientTeam", "SmallestSufficientTeam\SmallestSufficientTeam.csproj", "{BCDBB849-EF03-4BC7-A6CE-79410B5497F3}"
 EndProject
@@ -76,6 +76,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideArrayIntoSubarraysWithMinimum Cost", "DivideArrayIntoSubarraysWithMinimum Cost\DivideArrayIntoSubarraysWithMinimum Cost.csproj", "{83D6B668-03F4-4FCC-AB65-5B236CA529F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBinaryTree", "BalancedBinaryTree\BalancedBinaryTree.csproj", "{98D45D8D-C934-4A48-A141-409ADE7F6AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindUniqueBinaryString", "FindUniqueBinaryString\FindUniqueBinaryString.csproj", "{506A8F5B-910C-4E48-B949-16FA759C6ADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -233,6 +235,10 @@ Global
 		{98D45D8D-C934-4A48-A141-409ADE7F6AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98D45D8D-C934-4A48-A141-409ADE7F6AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98D45D8D-C934-4A48-A141-409ADE7F6AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506A8F5B-910C-4E48-B949-16FA759C6ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506A8F5B-910C-4E48-B949-16FA759C6ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506A8F5B-910C-4E48-B949-16FA759C6ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506A8F5B-910C-4E48-B949-16FA759C6ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
