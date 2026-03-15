@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBinaryTree", "Balan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindUniqueBinaryString", "FindUniqueBinaryString\FindUniqueBinaryString.csproj", "{506A8F5B-910C-4E48-B949-16FA759C6ADA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheKThLexicographicalStringOfAllHappyStringsOfLengthN", "TheKThLexicographicalStringOfAllHappyStringsOfLengthN\TheKThLexicographicalStringOfAllHappyStringsOfLengthN.csproj", "{BA55AFEE-FA02-4AB7-96BD-985BE34C843D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -239,6 +241,10 @@ Global
 		{506A8F5B-910C-4E48-B949-16FA759C6ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{506A8F5B-910C-4E48-B949-16FA759C6ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{506A8F5B-910C-4E48-B949-16FA759C6ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA55AFEE-FA02-4AB7-96BD-985BE34C843D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA55AFEE-FA02-4AB7-96BD-985BE34C843D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA55AFEE-FA02-4AB7-96BD-985BE34C843D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA55AFEE-FA02-4AB7-96BD-985BE34C843D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
