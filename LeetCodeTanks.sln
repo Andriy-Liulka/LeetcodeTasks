@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindUniqueBinaryString", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheKThLexicographicalStringOfAllHappyStringsOfLengthN", "TheKThLexicographicalStringOfAllHappyStringsOfLengthN\TheKThLexicographicalStringOfAllHappyStringsOfLengthN.csproj", "{BA55AFEE-FA02-4AB7-96BD-985BE34C843D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualSumGroupPartition", "EqualSumGroupPartition\EqualSumGroupPartition.csproj", "{345B3954-8B86-47FC-8FA8-18259B5BE0A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -245,6 +247,10 @@ Global
 		{BA55AFEE-FA02-4AB7-96BD-985BE34C843D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA55AFEE-FA02-4AB7-96BD-985BE34C843D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA55AFEE-FA02-4AB7-96BD-985BE34C843D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345B3954-8B86-47FC-8FA8-18259B5BE0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345B3954-8B86-47FC-8FA8-18259B5BE0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345B3954-8B86-47FC-8FA8-18259B5BE0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345B3954-8B86-47FC-8FA8-18259B5BE0A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
