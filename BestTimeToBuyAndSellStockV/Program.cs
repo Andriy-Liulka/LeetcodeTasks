@@ -170,8 +170,10 @@ public class Program
         // var res6 = new Solution().MaximumProfit([2,3,2,3,2,3,2,3], 4);                 //4
         // var res7 = new Solution().MaximumProfit([6,11,1,5,3,15,8], 3);                 //22
         //var res8 = new Solution().MaximumProfit([4,5,18,15,14,10,8,12,12,18,17,8,16], 6); //38
-        var res9 = new Solution().MaximumProfit([1,2,3,4,5], 2); //4
-        
+        using (new TimeChecker())
+        {
+            var res9 = new Solution().MaximumProfit([10,13,7,7,16,16,4,16,9,5,13,16], 5); 
+        }
         
     }
 }
