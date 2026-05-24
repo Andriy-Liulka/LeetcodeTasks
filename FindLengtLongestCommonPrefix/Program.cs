@@ -18,14 +18,6 @@ public class Solution
                 int valueToCompare_1 = arr1[i];
                 int valueToCompare_2 = arr2[j];
 
-                //if (usedValues.TryGetValue(valueToCompare_1, out HashSet<int> keyUsedValues))
-                //{
-                //    if (keyUsedValues.Contains(valueToCompare_2))
-                //    {
-                //        continue;
-                //    }
-                //}
-
 
                 var valueToCompare_1_Length = GetLength(valueToCompare_1);
                 var valueToCompare_2_Length = GetLength(valueToCompare_2);
@@ -50,15 +42,6 @@ public class Solution
                 {
                     theBiggestLength = length;
                 }
-
-                //if (usedValues.TryGetValue(valueToCompare_1, out HashSet<int> keyUsedValues2))
-                //{
-                //    keyUsedValues2.Add(valueToCompare_2);
-                //}
-                //else
-                //{
-                //    usedValues.Add(valueToCompare_1, new HashSet<int>([valueToCompare_2]));
-                //}
             }
         }
 
