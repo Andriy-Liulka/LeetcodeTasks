@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RottingOranges", "RottingOr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{058750F1-EFC3-40EB-93C0-1A2AF078491C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "3Sum\3Sum.csproj", "{909C3D3A-6075-41FD-BF7C-7F668497DB52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -305,6 +307,10 @@ Global
 		{058750F1-EFC3-40EB-93C0-1A2AF078491C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{058750F1-EFC3-40EB-93C0-1A2AF078491C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{058750F1-EFC3-40EB-93C0-1A2AF078491C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909C3D3A-6075-41FD-BF7C-7F668497DB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909C3D3A-6075-41FD-BF7C-7F668497DB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909C3D3A-6075-41FD-BF7C-7F668497DB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909C3D3A-6075-41FD-BF7C-7F668497DB52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
