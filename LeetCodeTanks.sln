@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "RomanToIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "3Sum\3Sum.csproj", "{909C3D3A-6075-41FD-BF7C-7F668497DB52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterCombinationsOfPhoneNumber", "LetterCombinationsOfPhoneNumber\LetterCombinationsOfPhoneNumber.csproj", "{B4633D13-036C-42F7-916C-DD362F17B9BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -311,6 +313,10 @@ Global
 		{909C3D3A-6075-41FD-BF7C-7F668497DB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{909C3D3A-6075-41FD-BF7C-7F668497DB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{909C3D3A-6075-41FD-BF7C-7F668497DB52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4633D13-036C-42F7-916C-DD362F17B9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4633D13-036C-42F7-916C-DD362F17B9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4633D13-036C-42F7-916C-DD362F17B9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4633D13-036C-42F7-916C-DD362F17B9BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
