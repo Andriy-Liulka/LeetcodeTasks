@@ -1,4 +1,6 @@
-﻿namespace LetterCombinationsOfPhoneNumber;
+﻿//https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
+namespace LetterCombinationsOfPhoneNumber;
 
 class Program
 {
