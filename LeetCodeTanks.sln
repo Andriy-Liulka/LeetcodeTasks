@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCommasInRange", "Count
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumDistanceToTheTargetElement", "MinimumDistanceToTheTargetElement\MinimumDistanceToTheTargetElement.csproj", "{3944840E-99F8-4677-9A06-EB3B08BFE3CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNodesInKGroup", "ReverseNodesInKGroup\ReverseNodesInKGroup.csproj", "{0B425DA0-8B7B-4661-B951-00EAB92A9524}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -347,6 +349,10 @@ Global
 		{3944840E-99F8-4677-9A06-EB3B08BFE3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3944840E-99F8-4677-9A06-EB3B08BFE3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3944840E-99F8-4677-9A06-EB3B08BFE3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B425DA0-8B7B-4661-B951-00EAB92A9524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B425DA0-8B7B-4661-B951-00EAB92A9524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B425DA0-8B7B-4661-B951-00EAB92A9524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B425DA0-8B7B-4661-B951-00EAB92A9524}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
