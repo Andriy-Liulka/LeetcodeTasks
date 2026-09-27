@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNodesInKGroup", "Rev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextPermutation", "NextPermutation\NextPermutation.csproj", "{06921E63-F897-4314-8672-67A9F6954FB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestValidParentheses", "LongestValidParentheses\LongestValidParentheses.csproj", "{B6934012-9822-4926-B4D5-C93D44E65987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -359,6 +361,10 @@ Global
 		{06921E63-F897-4314-8672-67A9F6954FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06921E63-F897-4314-8672-67A9F6954FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06921E63-F897-4314-8672-67A9F6954FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6934012-9822-4926-B4D5-C93D44E65987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6934012-9822-4926-B4D5-C93D44E65987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6934012-9822-4926-B4D5-C93D44E65987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6934012-9822-4926-B4D5-C93D44E65987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
