@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestValidParentheses", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInRotatedSortedArray", " SearchInRotatedSortedArray\SearchInRotatedSortedArray.csproj", "{73C68C18-D8B1-463B-8B64-7CCFEED1BBD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiameterOfBinaryTree", "DiameterOfBinaryTree\DiameterOfBinaryTree.csproj", "{367761FF-386F-423D-AB5A-C3B39FE4269A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -371,6 +373,10 @@ Global
 		{73C68C18-D8B1-463B-8B64-7CCFEED1BBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C68C18-D8B1-463B-8B64-7CCFEED1BBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C68C18-D8B1-463B-8B64-7CCFEED1BBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367761FF-386F-423D-AB5A-C3B39FE4269A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367761FF-386F-423D-AB5A-C3B39FE4269A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367761FF-386F-423D-AB5A-C3B39FE4269A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367761FF-386F-423D-AB5A-C3B39FE4269A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
