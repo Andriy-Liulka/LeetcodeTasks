@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInRotatedSortedArray"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiameterOfBinaryTree", "DiameterOfBinaryTree\DiameterOfBinaryTree.csproj", "{367761FF-386F-423D-AB5A-C3B39FE4269A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationSum", "CombinationSum\CombinationSum.csproj", "{55DC5DC7-5B98-4756-94F7-7EBA4886BB8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -377,6 +379,10 @@ Global
 		{367761FF-386F-423D-AB5A-C3B39FE4269A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{367761FF-386F-423D-AB5A-C3B39FE4269A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{367761FF-386F-423D-AB5A-C3B39FE4269A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DC5DC7-5B98-4756-94F7-7EBA4886BB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DC5DC7-5B98-4756-94F7-7EBA4886BB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DC5DC7-5B98-4756-94F7-7EBA4886BB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DC5DC7-5B98-4756-94F7-7EBA4886BB8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
