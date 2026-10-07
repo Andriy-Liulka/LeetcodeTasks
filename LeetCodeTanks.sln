@@ -129,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationSum", "Combinati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstMissingPositive", "FirstMissingPositive\FirstMissingPositive.csproj", "{97F1469F-AF48-4A65-A9B6-096880CD024D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrappingRainWater", "TrappingRainWater\TrappingRainWater.csproj", "{D0A83FD9-ED7E-40B7-935F-6E98DF74FCA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -389,6 +391,10 @@ Global
 		{97F1469F-AF48-4A65-A9B6-096880CD024D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97F1469F-AF48-4A65-A9B6-096880CD024D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97F1469F-AF48-4A65-A9B6-096880CD024D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A83FD9-ED7E-40B7-935F-6E98DF74FCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A83FD9-ED7E-40B7-935F-6E98DF74FCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A83FD9-ED7E-40B7-935F-6E98DF74FCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A83FD9-ED7E-40B7-935F-6E98DF74FCA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
