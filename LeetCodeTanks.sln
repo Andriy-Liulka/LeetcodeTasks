@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrappingRainWater", "Trappi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpGame2", "JumpGame2\JumpGame2.csproj", "{CCBB43B6-8EAD-4DE5-9F90-7602CA6A6D83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "RotateImage\RotateImage.csproj", "{78DEDC83-D5E7-47F7-890A-D91154C638A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -401,6 +403,10 @@ Global
 		{CCBB43B6-8EAD-4DE5-9F90-7602CA6A6D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCBB43B6-8EAD-4DE5-9F90-7602CA6A6D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCBB43B6-8EAD-4DE5-9F90-7602CA6A6D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DEDC83-D5E7-47F7-890A-D91154C638A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DEDC83-D5E7-47F7-890A-D91154C638A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DEDC83-D5E7-47F7-890A-D91154C638A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DEDC83-D5E7-47F7-890A-D91154C638A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
