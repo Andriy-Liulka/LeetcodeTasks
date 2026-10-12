@@ -135,6 +135,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpGame2", "JumpGame2\Jump
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "RotateImage\RotateImage.csproj", "{78DEDC83-D5E7-47F7-890A-D91154C638A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubarraySumEqualsK", "SubarraySumEqualsK\SubarraySumEqualsK.csproj", "{30E4220C-9422-4619-8282-7DC4BFCCA5B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -407,6 +409,10 @@ Global
 		{78DEDC83-D5E7-47F7-890A-D91154C638A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78DEDC83-D5E7-47F7-890A-D91154C638A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78DEDC83-D5E7-47F7-890A-D91154C638A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E4220C-9422-4619-8282-7DC4BFCCA5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E4220C-9422-4619-8282-7DC4BFCCA5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E4220C-9422-4619-8282-7DC4BFCCA5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E4220C-9422-4619-8282-7DC4BFCCA5B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
