@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "RotateImage\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubarraySumEqualsK", "SubarraySumEqualsK\SubarraySumEqualsK.csproj", "{30E4220C-9422-4619-8282-7DC4BFCCA5B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-Queens", "N-Queens\N-Queens.csproj", "{1B6C1D3F-8C06-482A-B4EA-F5B1A24FA668}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -413,6 +415,10 @@ Global
 		{30E4220C-9422-4619-8282-7DC4BFCCA5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30E4220C-9422-4619-8282-7DC4BFCCA5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30E4220C-9422-4619-8282-7DC4BFCCA5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6C1D3F-8C06-482A-B4EA-F5B1A24FA668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6C1D3F-8C06-482A-B4EA-F5B1A24FA668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6C1D3F-8C06-482A-B4EA-F5B1A24FA668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6C1D3F-8C06-482A-B4EA-F5B1A24FA668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
