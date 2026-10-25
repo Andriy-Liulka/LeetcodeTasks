@@ -1,4 +1,6 @@
-﻿namespace MergeIntervals;
+﻿//https://leetcode.com/problems/merge-intervals
+
+namespace MergeIntervals;
 
 class Program
 {
